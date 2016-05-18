@@ -3,6 +3,7 @@ import java.util.List;
 
 /**
  * Created by <a href="davidsunjie.sun@gmail.com">jerrysun</a> on 5/17/16.
+ * Time complexity: O(logn)
  */
 public class TreeNode {
         int val;

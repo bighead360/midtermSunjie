@@ -1,5 +1,6 @@
 /**
  * Created by <a href="davidsunjie.sun@gmail.com">jerrysun</a> on 5/18/16.
+ * Time complexity: O(nlogn)
  */
 public class SortPN {
 
@@ -44,8 +45,6 @@ public class SortPN {
             startpoint++;
 
         }
-
-
 
     }
 
