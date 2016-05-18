@@ -24,6 +24,26 @@ public class SortPN {
         this.tempMergArr = new int[length];
 
         doMergeSort(0,length-1);
+        int negpoint = 0;
+
+        for(int i =0; i< length; i++){
+            if (array[i]<0){
+                negpoint = i - 1;
+                break;
+            }
+        }
+
+
+        int startpoint =0;
+        while( startpoint < negpoint){
+            int temp = array[negpoint];
+            array[negpoint] = array[startpoint];
+            array[startpoint] = temp;
+
+            negpoint--;
+            startpoint++;
+
+        }
 
 
 
